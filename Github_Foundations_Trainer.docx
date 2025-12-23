@@ -1,0 +1,1313 @@
+﻿Certificaciones oficiales de GitHub
+
+✅ Actualmente, GitHub ofrece 6 certificaciones oficiales:
+1️⃣ GitHub Foundations
+    • Nivel: Básico
+    • Fundamentos de Git, GitHub, colaboración y conceptos clave
+2️⃣ GitHub Actions
+    • CI/CD con GitHub Actions
+    • Automatización de workflows
+3️⃣ GitHub Administration
+    • Administración de organizaciones y repositorios
+    • Permisos, políticas y gestión empresarial
+4️⃣ GitHub Advanced Security
+    • Seguridad de código
+    • Dependabot, Code Scanning, Secret Scanning
+5️⃣ GitHub Copilot
+    • Uso correcto y responsable de Copilot
+    • Productividad asistida por IA
+6️⃣ GitHub Enterprise (Administration – Enterprise)
+    • Enfocada en entornos empresariales grandes
+    • Gobernanza y control a escala
+📌 (Algunas aparecen agrupadas según rol, pero todas son certificaciones oficiales)
+
+📊 Resumen final
+Tecnología
+Certificaciones oficiales
+Git
+❌ 0
+GitHub
+✅ 6
+Total
+6 certificaciones oficiales
+
+🎯 Recomendación según nivel
+    • 👶 Principiante → GitHub Foundations
+    • 👨‍💻 Dev / Data / ML → Foundations + Actions
+    • 🛡️ Seguridad → Advanced Security
+    • 🏢 Admin / DevOps → Administration / Enterprise
+    • 🤖 IA aplicada → GitHub Copilot
+
+ENSAYO COMPLETO
+GitHub Foundations Certification
+
+Introducción
+En el desarrollo de software moderno, la colaboración, la trazabilidad de los cambios y la seguridad del código son elementos fundamentales. GitHub se ha consolidado como una de las plataformas más importantes para gestionar estos procesos, apoyándose en Git como sistema de control de versiones distribuido. La certificación GitHub Foundations valida que una persona comprende los conceptos esenciales de Git, el uso básico de GitHub y las buenas prácticas de colaboración, automatización y seguridad dentro de esta plataforma.
+Este ensayo desarrolla de forma integral los conceptos evaluados en la certificación GitHub Foundations, siguiendo el enfoque conceptual y práctico promovido por la documentación oficial de GitHub y los módulos de aprendizaje de Microsoft Learn.
+
+1. Git como sistema de control de versiones
+Git es un sistema de control de versiones distribuido diseñado para registrar cambios en archivos a lo largo del tiempo. Su objetivo principal es permitir que múltiples personas trabajen sobre un mismo proyecto sin perder información ni sobrescribir el trabajo de otros.
+A diferencia de los sistemas centralizados, Git permite que cada desarrollador tenga una copia completa del historial del proyecto en su equipo local. Esto aporta resiliencia, velocidad y flexibilidad. Cada cambio relevante se registra mediante un commit, que representa una instantánea del estado del proyecto en un momento específico.
+Git no depende de internet para funcionar y puede utilizarse de manera completamente local. Sin embargo, para colaborar de forma eficiente, suele integrarse con plataformas remotas como GitHub.
+
+2. GitHub como plataforma de colaboración
+GitHub es una plataforma basada en la nube que aloja repositorios Git y añade herramientas para facilitar la colaboración, revisión de código, automatización y gestión de proyectos.
+Una distinción fundamental evaluada en el examen es:
+    • Git: tecnología de control de versiones.
+    • GitHub: plataforma que aloja repositorios Git y añade funcionalidades colaborativas.
+GitHub permite trabajar tanto con repositorios públicos, accesibles a cualquier persona, como con repositorios privados, restringidos a usuarios autorizados. Esta flexibilidad hace que GitHub sea útil tanto para proyectos open source como para desarrollos empresariales.
+
+3. Repositorios y estructura básica
+Un repositorio es el contenedor principal de un proyecto. Incluye el código fuente, el historial de cambios y archivos auxiliares como documentación y configuración.
+Los repositorios pueden existir de forma:
+    • Local, en la computadora del desarrollador.
+    • Remota, alojados en GitHub.
+En GitHub, un repositorio suele contener archivos clave como:
+    • README.md, que describe el proyecto.
+    • LICENSE, que define los términos legales de uso.
+    • Archivos de configuración y código fuente.
+Comprender el propósito de estos elementos es esencial para aprobar la certificación.
+
+4. Commits y control de cambios
+Un commit representa un conjunto de cambios guardados en el historial del proyecto. Cada commit incluye:
+    • Los cambios realizados.
+    • Un mensaje descriptivo.
+    • Información del autor y la fecha.
+Las buenas prácticas recomiendan commits pequeños, claros y con mensajes descriptivos. Esto facilita la revisión, el mantenimiento y la trazabilidad del código.
+El examen no evalúa comandos específicos de Git, sino la comprensión conceptual del propósito de los commits.
+
+5. Branches y trabajo paralelo
+Las branches (ramas) permiten desarrollar nuevas funcionalidades o corregir errores sin afectar la versión principal del proyecto. La rama principal suele llamarse main.
+Trabajar con ramas aporta múltiples beneficios:
+    • Aislamiento de cambios.
+    • Mayor estabilidad del código principal.
+    • Facilitación de la colaboración entre equipos.
+Crear ramas para nuevas funcionalidades es una práctica estándar promovida por GitHub y ampliamente evaluada en la certificación.
+
+6. Pull Requests y revisión de código
+Un Pull Request (PR) es una solicitud para integrar cambios de una rama a otra, generalmente hacia main. Los Pull Requests permiten:
+    • Revisar el código antes de integrarlo.
+    • Discutir mejoras.
+    • Detectar errores o riesgos de seguridad.
+El proceso de code review es una práctica clave en GitHub. Su objetivo no es solo corregir errores, sino mejorar la calidad, seguridad y mantenibilidad del código. El examen enfatiza que los Pull Requests fomentan la colaboración y reducen riesgos.
+
+7. Forks y colaboración open source
+Un fork es una copia de un repositorio en la cuenta de otro usuario. Se utiliza comúnmente en proyectos open source cuando un colaborador no tiene permisos directos sobre el repositorio original.
+La diferencia entre fork y clone es fundamental:
+    • Clone: copia local para trabajar.
+    • Fork: copia del repositorio en otra cuenta de GitHub.
+Este concepto es evaluado de forma recurrente en el examen.
+
+8. Issues, Projects y Discussions
+GitHub proporciona herramientas para gestionar el trabajo y la comunicación:
+Issues
+Los issues se utilizan para registrar trabajo accionable, como:
+    • Errores (bugs).
+    • Nuevas funcionalidades.
+    • Tareas técnicas.
+Los issues pueden incluir etiquetas, responsables y hitos.
+Projects
+GitHub Projects permite organizar el trabajo de forma visual, similar a un tablero Kanban. Se integra con issues y Pull Requests para dar seguimiento al progreso.
+Discussions
+Las discussions están orientadas a la conversación abierta, intercambio de ideas y preguntas generales. No representan trabajo accionable directo, a diferencia de los issues.
+Saber cuándo usar cada herramienta es clave para aprobar la certificación.
+
+9. Documentación del proyecto
+La documentación es un pilar de las buenas prácticas en GitHub.
+    • README.md: explica qué es el proyecto, cómo se usa y cómo contribuir.
+    • LICENSE: define los permisos legales de uso, modificación y distribución.
+    • CONTRIBUTING.md: indica cómo colaborar correctamente.
+    • CODE_OF_CONDUCT.md: establece normas de comportamiento en la comunidad.
+El examen evalúa la comprensión del propósito de cada archivo, no su contenido técnico.
+
+10. GitHub Actions y automatización
+GitHub Actions es la plataforma de automatización integrada en GitHub. Permite crear flujos de trabajo (workflows) que se ejecutan automáticamente en respuesta a eventos como:
+    • push
+    • pull_request
+GitHub Actions se utiliza principalmente para:
+    • Integración continua (CI).
+    • Despliegue continuo (CD).
+    • Ejecución de pruebas automáticas.
+En GitHub Foundations, Actions se evalúa solo a nivel conceptual. No se requiere escribir archivos YAML ni configurar pipelines.
+
+11. Seguridad en GitHub
+La seguridad es un eje central del examen.
+Secrets
+Los secrets permiten almacenar información sensible (tokens, claves) de forma segura, evitando su exposición en el código.
+Dependabot
+Dependabot analiza dependencias y propone actualizaciones automáticas para corregir vulnerabilidades conocidas.
+Code Scanning y Secret Scanning
+Estas herramientas detectan:
+    • Vulnerabilidades en el código.
+    • Exposición accidental de secretos.
+Principio de mínimo privilegio
+Este principio establece que cada usuario debe tener solo los permisos necesarios para realizar su trabajo, reduciendo riesgos de seguridad.
+
+12. Licencias open source
+Una licencia define cómo puede usarse un proyecto. Sin una licencia explícita, el código no puede usarse legalmente.
+Licencias comunes:
+    • MIT y Apache 2.0: permisivas.
+    • GPL: restrictiva (copyleft).
+El examen evalúa la comprensión conceptual de estas diferencias, no los detalles legales.
+
+13. GitHub como producto
+GitHub ofrece distintos planes:
+    • Free: uso básico.
+    • Pro: individuos.
+    • Team: equipos.
+    • Enterprise: grandes organizaciones.
+También evalúa:
+    • GitHub Copilot: asistente de IA que sugiere código, pero no reemplaza al desarrollador.
+    • GitHub Marketplace: catálogo de herramientas y extensiones.
+
+Conclusión
+La certificación GitHub Foundations valida el dominio de los fundamentos de GitHub desde una perspectiva conceptual, colaborativa y orientada a buenas prácticas. No evalúa habilidades avanzadas de programación ni configuraciones complejas, sino la comprensión de cómo trabajar correctamente en equipos modernos de desarrollo.
+Este ensayo integra todo el contenido alineado con la documentación oficial de GitHub y Microsoft Learn. El dominio completo de estos conceptos garantiza una alta probabilidad de aprobar la certificación GitHub Foundations en el primer intento.
+
+📘 CUESTIONARIO COMPLETO
+GitHub Foundations Certification
+(Preguntas y respuestas oficiales, explicadas y reforzadas)
+
+🔹 SECCIÓN 1: GIT Y CONTROL DE VERSIONES
+
+❓ ¿Qué es Git y cuál es su propósito principal?
+Respuesta:
+Git es un sistema de control de versiones distribuido cuyo propósito es registrar y gestionar los cambios realizados en archivos a lo largo del tiempo. Permite que múltiples personas trabajen en un mismo proyecto sin sobrescribir el trabajo de otros, manteniendo un historial completo de modificaciones.
+Ejemplo:
+Si hoy modificas un archivo y mañana decides que el cambio fue un error, Git permite volver a una versión anterior sin perder el resto del trabajo.
+
+❓ ¿Qué significa que Git sea “distribuido”?
+Respuesta:
+Significa que cada desarrollador tiene una copia completa del repositorio, incluyendo todo el historial de cambios. No depende de un servidor central para funcionar.
+Ejemplo:
+Si GitHub deja de estar disponible temporalmente, puedes seguir trabajando localmente con Git sin problemas.
+
+❓ ¿Qué es un commit?
+Respuesta:
+Un commit es una instantánea del estado del proyecto en un momento específico. Representa un conjunto de cambios guardados en el historial del repositorio.
+Ejemplo:
+Un commit puede representar “Corrección de error en el cálculo de impuestos” y quedará registrado permanentemente.
+
+🔹 SECCIÓN 2: GITHUB COMO PLATAFORMA
+
+❓ ¿Qué es GitHub?
+Respuesta:
+GitHub es una plataforma en la nube que aloja repositorios Git y añade herramientas para colaboración, revisión de código, automatización, seguridad y gestión de proyectos.
+
+❓ ¿Cuál es la diferencia entre Git y GitHub? (PREGUNTA CLÁSICA DE EXAMEN)
+Respuesta:
+    • Git es la tecnología que controla versiones.
+    • GitHub es la plataforma que aloja repositorios Git y facilita la colaboración.
+Regla mental para el examen:
+👉 Git es el motor, GitHub es el garaje con herramientas.
+
+❓ ¿Qué tipos de repositorios existen en GitHub?
+Respuesta:
+    • Repositorios públicos: cualquier persona puede verlos.
+    • Repositorios privados: solo usuarios autorizados tienen acceso.
+Ejemplo:
+Un proyecto open source suele ser público; un proyecto empresarial suele ser privado.
+
+🔹 SECCIÓN 3: REPOSITORIOS Y ARCHIVOS CLAVE
+
+❓ ¿Qué es un repositorio?
+Respuesta:
+Es el contenedor principal del proyecto. Incluye el código, historial de cambios, documentación y archivos de configuración.
+
+❓ ¿Cuál es el propósito del archivo README.md?
+Respuesta:
+El README.md explica:
+    • Qué es el proyecto
+    • Cómo instalarlo
+    • Cómo usarlo
+    • Cómo contribuir
+Ejemplo:
+Un usuario nuevo puede entender el proyecto solo leyendo el README.
+
+❓ ¿Por qué es importante el archivo LICENSE?
+Respuesta:
+Define legalmente cómo puede usarse el código.
+Sin una licencia, nadie puede usar, modificar o distribuir el proyecto legalmente.
+
+🔹 SECCIÓN 4: BRANCHES Y FLUJO DE TRABAJO
+
+❓ ¿Qué es una branch?
+Respuesta:
+Una branch es una línea paralela de trabajo que permite desarrollar cambios sin afectar la versión principal (main).
+
+❓ ¿Por qué no se recomienda trabajar directamente en la rama main?
+Respuesta:
+Porque puede introducir errores directamente en la versión estable del proyecto. Usar branches protege la estabilidad del código.
+
+❓ ¿Cuál es el flujo de trabajo estándar en GitHub? (MUY IMPORTANTE)
+Respuesta:
+Issue → Branch → Commit → Pull Request → Review → Merge
+Ejemplo:
+    1. Se reporta un bug (Issue)
+    2. Se crea una branch
+    3. Se realizan commits
+    4. Se abre un Pull Request
+    5. Se revisa el código
+    6. Se integra a main
+
+🔹 SECCIÓN 5: PULL REQUESTS Y COLABORACIÓN
+
+❓ ¿Qué es un Pull Request?
+Respuesta:
+Es una solicitud para integrar cambios de una rama a otra, permitiendo revisión y discusión antes del merge.
+
+❓ ¿Cuál es el objetivo principal de un Pull Request?
+Respuesta:
+Mejorar la calidad, seguridad y colaboración del código antes de integrarlo.
+
+❓ ¿Qué es el code review?
+Respuesta:
+Es el proceso mediante el cual otros miembros del equipo revisan los cambios propuestos en un Pull Request.
+Ejemplo:
+Un revisor detecta un error de seguridad antes de que llegue a producción.
+
+🔹 SECCIÓN 6: FORKS Y OPEN SOURCE
+
+❓ ¿Qué es un fork?
+Respuesta:
+Es una copia de un repositorio en tu propia cuenta de GitHub, común en proyectos open source.
+
+❓ ¿Diferencia entre fork y clone?
+Respuesta:
+    • Fork: copia del repositorio en GitHub (otra cuenta).
+    • Clone: copia local en tu computadora.
+
+🔹 SECCIÓN 7: ISSUES, PROJECTS Y DISCUSSIONS
+
+❓ ¿Para qué se utilizan los Issues?
+Respuesta:
+Para registrar trabajo accionable:
+    • Bugs
+    • Nuevas funcionalidades
+    • Tareas técnicas
+
+❓ ¿Qué es GitHub Projects?
+Respuesta:
+Una herramienta visual (tipo Kanban) para organizar el trabajo usando issues y Pull Requests.
+
+❓ ¿Cuándo se deben usar Discussions?
+Respuesta:
+Cuando se necesita:
+    • Hacer preguntas
+    • Discutir ideas
+    • Conversaciones abiertas sin acción inmediata
+Regla de examen:
+👉 Trabajo = Issue | Conversación = Discussion
+
+🔹 SECCIÓN 8: AUTOMATIZACIÓN CON GITHUB ACTIONS
+
+❓ ¿Qué es GitHub Actions?
+Respuesta:
+Es la plataforma de automatización integrada en GitHub que permite ejecutar flujos de trabajo automáticamente.
+
+❓ ¿Qué es CI/CD?
+Respuesta:
+    • CI (Integración Continua): pruebas automáticas al integrar cambios.
+    • CD (Despliegue Continuo): despliegue automático del software.
+
+❓ ¿Qué eventos pueden activar un workflow?
+Respuesta:
+Eventos como:
+    • push
+    • pull_request
+
+❓ ¿Se evalúa escribir YAML en GitHub Foundations?
+Respuesta:
+No. Solo se evalúa comprensión conceptual.
+
+🔹 SECCIÓN 9: SEGURIDAD EN GITHUB (CRÍTICO)
+
+❓ ¿Qué son los GitHub Secrets?
+Respuesta:
+Son variables seguras para almacenar información sensible como claves o tokens.
+Ejemplo:
+Un token de API nunca debe estar en el código fuente.
+
+❓ ¿Qué es Dependabot?
+Respuesta:
+Una herramienta que detecta dependencias vulnerables y propone actualizaciones automáticas.
+
+❓ ¿Qué es el principio de mínimo privilegio?
+Respuesta:
+Cada usuario debe tener solo los permisos necesarios, reduciendo riesgos de seguridad.
+
+🔹 SECCIÓN 10: LICENCIAS OPEN SOURCE
+
+❓ ¿Qué pasa si un proyecto no tiene licencia?
+Respuesta:
+Legalmente, nadie puede usarlo, modificarlo ni distribuirlo.
+
+❓ ¿Cuál es la diferencia entre licencias permisivas y restrictivas?
+Respuesta:
+    • Permisivas (MIT, Apache): permiten uso amplio.
+    • Restrictivas (GPL): obligan a mantener el código abierto.
+
+🔹 SECCIÓN 11: GITHUB COMO PRODUCTO
+
+❓ ¿Qué plan de GitHub está orientado a grandes organizaciones?
+Respuesta:
+GitHub Enterprise.
+
+❓ ¿Qué es GitHub Copilot?
+Respuesta:
+Un asistente de IA que sugiere código, pero no reemplaza al desarrollador ni toma decisiones arquitectónicas.
+
+❓ ¿Qué es GitHub Marketplace?
+Respuesta:
+Un catálogo de herramientas, acciones e integraciones para ampliar las capacidades de GitHub.
+
+✅ CONCLUSIÓN FINAL (CLAVE PARA EL EXAMEN)
+Si puedes responder con seguridad este cuestionario:
+    • ✔️ Entiendes Git vs GitHub
+    • ✔️ Dominas el flujo de trabajo
+    • ✔️ No confundes herramientas
+    • ✔️ Priorizas seguridad y colaboración
+
+📘 TEMARIO COMPLETO – GitHub Foundations Certification
+
+1️⃣ Fundamentos de Git y GitHub
+1.1 ¿Qué es Git?
+    • Sistema de control de versiones distribuido
+    • Diferencia entre:
+        ◦ Control de versiones centralizado vs distribuido
+    • Qué problemas resuelve Git
+1.2 ¿Qué es GitHub?
+    • Plataforma basada en la nube para alojar repositorios Git
+    • Relación Git vs GitHub (MUY preguntado)
+    • Casos de uso de GitHub:
+        ◦ Proyectos personales
+        ◦ Colaboración en equipos
+        ◦ Open Source
+1.3 Repositorios
+    • Repositorio local vs remoto
+    • Estructura básica de un repositorio
+    • Repositorios públicos vs privados
+
+2️⃣ Conceptos básicos de Git (SIN comandos avanzados)
+Debes entender el concepto, no memorizar comandos complejos.
+2.1 Commits
+    • Qué es un commit
+    • Buenas prácticas de mensajes de commit
+    • Historial de commits
+2.2 Branches (ramas)
+    • Qué es una branch
+    • Para qué se usan
+    • Branch principal (main / master)
+    • Branches de feature
+2.3 Merge
+    • Qué es un merge
+    • Merge directo vs merge mediante Pull Request
+    • Conflictos de merge (concepto, no resolución)
+2.4 Fork
+    • Qué es un fork
+    • Diferencia entre fork y clone
+    • Uso típico en proyectos open source
+
+3️⃣ Flujo de trabajo en GitHub (MUY IMPORTANTE)
+3.1 Flujo típico de colaboración
+    • Issue → Branch → Commit → Pull Request → Review → Merge
+3.2 Clone
+    • Qué significa clonar un repositorio
+    • Casos de uso
+3.3 Pull Request (PR)
+    • Qué es un PR
+    • Para qué sirve
+    • Componentes de un PR:
+        ◦ Título
+        ◦ Descripción
+        ◦ Cambios
+        ◦ Comentarios
+    • Draft Pull Requests
+    • Merge de PR
+3.4 Code Review
+    • Qué es una revisión de código
+    • Quién puede revisar
+    • Beneficios:
+        ◦ Calidad
+        ◦ Seguridad
+        ◦ Colaboración
+
+4️⃣ Issues, Projects y Discussions
+4.1 Issues
+    • Qué es un issue
+    • Casos de uso:
+        ◦ Bugs
+        ◦ Features
+        ◦ Tareas
+    • Labels
+    • Milestones
+    • Asignación de responsables
+4.2 GitHub Projects
+    • Qué es GitHub Projects
+    • Uso como tablero (Kanban)
+    • Relación con issues y PRs
+4.3 Discussions
+    • Diferencia entre issue y discussion
+    • Cuándo usar discussions
+    • Casos comunes:
+        ◦ Preguntas
+        ◦ Ideas
+        ◦ Comunidad
+
+5️⃣ Documentación y archivos clave
+5.1 README.md
+    • Propósito del README
+    • Contenido típico:
+        ◦ Descripción del proyecto
+        ◦ Instalación
+        ◦ Uso
+        ◦ Contribución
+5.2 Otros archivos importantes
+    • LICENSE
+    • CONTRIBUTING.md
+    • CODE_OF_CONDUCT.md
+👉 Saber para qué sirve cada uno
+
+6️⃣ GitHub Actions (CONCEPTUAL – NO técnico)
+⚠️ Tema frecuente, pero solo a nivel teórico
+6.1 ¿Qué es GitHub Actions?
+    • Plataforma de automatización integrada
+    • CI/CD
+6.2 Conceptos clave
+    • Workflow
+    • Job
+    • Step
+    • Runner
+    • Evento (push, pull_request, schedule)
+6.3 Casos de uso
+    • Ejecutar tests
+    • Build automático
+    • Deploy
+    • Linting
+❌ No escribir YAML
+❌ No configurar pipelines
+
+7️⃣ Seguridad en GitHub (MUY PREGUNTADO)
+7.1 Seguridad básica
+    • Principio de mínimo privilegio
+    • Roles y permisos
+7.2 Secrets
+    • Qué son secrets
+    • Dónde se usan
+    • Por qué NO se deben guardar claves en el código
+7.3 Dependabot
+    • Qué es
+    • Para qué sirve
+    • Actualizaciones automáticas de dependencias
+7.4 Code Scanning & Secret Scanning
+    • Qué detectan
+    • Beneficios
+    • Cuándo se usan
+
+8️⃣ Licencias Open Source
+8.1 ¿Qué es una licencia?
+    • Por qué es importante
+    • Qué pasa si NO hay licencia
+8.2 Tipos comunes (conceptual)
+    • MIT
+    • Apache 2.0
+    • GPL
+👉 No memorizar texto legal, solo:
+    • Permisiva vs restrictiva
+
+9️⃣ GitHub como producto
+9.1 Planes de GitHub
+    • Free
+    • Pro
+    • Team
+    • Enterprise
+9.2 GitHub Copilot
+    • Qué es Copilot
+    • Qué hace
+    • Qué NO hace
+    • Uso responsable
+9.3 GitHub Marketplace
+    • Qué es
+    • Qué tipo de herramientas ofrece
+
+🔟 Buenas prácticas generales
+    • Colaboración efectiva
+    • Documentación clara
+    • Uso correcto de issues y PRs
+    • Seguridad desde el inicio
+    • Comunicación en equipos
+
+✅ Checklist FINAL (si sabes esto, apruebas)
+✔ Diferencias Git vs GitHub
+✔ Flujo completo de trabajo
+✔ Pull Requests e Issues
+✔ Actions (concepto)
+✔ Seguridad y licencias
+✔ Productos de GitHub
+
+🗓️ PLAN DE ESTUDIO – GitHub Foundations (5 DÍAS)
+⏱️ Tiempo diario recomendado: 1.5 – 2 horas
+🎯 Objetivo: dominar exactamente lo que entra en el examen (sin relleno)
+
+📅 DÍA 1 – Fundamentos de Git y GitHub (BASE DEL EXAMEN)
+🎯 Objetivo
+Entender qué es cada cosa y para qué sirve.
+📚 Estudia:
+    • Git vs GitHub (MUY preguntado)
+    • Repositorios:
+        ◦ Local vs remoto
+        ◦ Público vs privado
+    • Commits:
+        ◦ Qué representan
+        ◦ Historial de cambios
+    • Branches:
+        ◦ main
+        ◦ feature branches
+    • Merge (concepto)
+    • Fork vs Clone
+✅ Al final del día debes poder responder:
+    • ¿Cuándo usar fork y cuándo clone?
+    • ¿Por qué no se trabaja directamente en main?
+    • ¿Git funciona sin GitHub?
+
+📅 DÍA 2 – Flujo de trabajo y colaboración (CLAVE)
+🎯 Objetivo
+Dominar cómo trabajan los equipos en GitHub.
+📚 Estudia:
+    • Flujo completo:
+Issue → Branch → Commit → Pull Request → Review → Merge
+    • Pull Requests:
+        ◦ Qué son
+        ◦ Para qué sirven
+        ◦ Draft PR
+    • Code Review:
+        ◦ Beneficios
+        ◦ Quién revisa
+    • Conflictos de merge (solo concepto)
+⚠️ Ojo con:
+Preguntas tipo:
+“¿Cuál es la mejor forma de proponer cambios sin afectar la rama principal?”
+✅ Al final del día:
+    • Sabes explicar el flujo completo sin dudar
+    • Identificas cuándo usar PR vs commit directo
+
+📅 DÍA 3 – Issues, Projects y Documentación
+🎯 Objetivo
+Elegir la herramienta correcta según el problema.
+📚 Estudia:
+    • Issues:
+        ◦ Bugs
+        ◦ Features
+        ◦ Tasks
+        ◦ Labels y milestones
+    • GitHub Projects:
+        ◦ Uso tipo Kanban
+        ◦ Relación con issues y PRs
+    • Discussions:
+        ◦ Diferencia con issues
+        ◦ Casos de uso
+    • Documentación:
+        ◦ README.md
+        ◦ LICENSE
+        ◦ CONTRIBUTING.md
+        ◦ CODE_OF_CONDUCT.md
+✅ Al final del día:
+    • Sabes cuándo usar:
+        ◦ Issue vs Discussion
+        ◦ Project vs Issue suelto
+
+📅 DÍA 4 – GitHub Actions, Seguridad y Licencias
+🎯 Objetivo
+Dominar los temas conceptuales más tramposos del examen.
+📚 Estudia:
+🔹 GitHub Actions (solo teoría)
+    • Qué es CI/CD
+    • Workflow, Job, Step
+    • Eventos: push, pull_request
+    • Casos de uso
+❌ No YAML
+❌ No pipelines reales
+🔹 Seguridad
+    • Secrets
+    • Dependabot
+    • Code Scanning
+    • Secret Scanning
+    • Principio de mínimo privilegio
+🔹 Licencias
+    • Qué es una licencia
+    • MIT vs Apache vs GPL (permisiva vs restrictiva)
+    • Qué pasa si NO hay licencia
+⚠️ MUY IMPORTANTE:
+El examen evalúa conciencia de seguridad, no habilidades técnicas.
+
+📅 DÍA 5 – Productos GitHub + Repaso Final
+🎯 Objetivo
+Cerrar brechas y afinar criterio.
+📚 Estudia:
+    • Planes GitHub:
+        ◦ Free
+        ◦ Pro
+        ◦ Team
+        ◦ Enterprise
+    • GitHub Copilot:
+        ◦ Qué hace
+        ◦ Qué NO hace
+        ◦ Uso responsable
+    • GitHub Marketplace
+🔁 Repaso general:
+    • Git vs GitHub
+    • Flujo completo
+    • Acciones vs Issues vs Discussions
+    • Seguridad
+
+🧪 SIMULACRO OFICIAL – GitHub Foundations
+📌 Formato: Opción múltiple
+📌 Dificultad: Igual al examen real
+📌 Instrucciones:
+    • Responde primero sin mirar las respuestas
+    • Luego compara con la clave explicada
+
+❓ PREGUNTAS (1–20)
+1️⃣ ¿Cuál es la principal diferencia entre Git y GitHub?
+A. Git es una plataforma web y GitHub un lenguaje
+B. Git es un sistema de control de versiones y GitHub una plataforma que lo aloja
+C. GitHub funciona sin Git
+D. Git es solo para proyectos privados
+
+2️⃣ ¿Cuál es el propósito principal de un commit?
+A. Subir archivos a GitHub
+B. Guardar un cambio específico en el historial del proyecto
+C. Crear una nueva rama
+D. Fusionar código
+
+3️⃣ ¿Cuál es la mejor práctica para agregar nuevas funcionalidades?
+A. Trabajar directamente en main
+B. Crear una branch de feature
+C. Usar un fork siempre
+D. Editar desde GitHub UI
+
+4️⃣ ¿Qué herramienta se usa para proponer cambios y revisarlos antes de integrarlos?
+A. Issue
+B. Discussion
+C. Pull Request
+D. Project
+
+5️⃣ ¿Cuál es el flujo correcto de trabajo?
+A. Commit → Issue → Merge → PR
+B. Issue → Branch → Commit → Pull Request → Merge
+C. Fork → Merge → Issue
+D. Clone → Commit → Deploy
+
+6️⃣ ¿Cuándo es mejor usar GitHub Discussions?
+A. Para reportar bugs
+B. Para tareas técnicas
+C. Para preguntas abiertas o ideas
+D. Para automatizaciones
+
+7️⃣ ¿Para qué sirve un archivo README.md?
+A. Definir la licencia
+B. Automatizar tareas
+C. Explicar el proyecto y cómo usarlo
+D. Proteger el repositorio
+
+8️⃣ ¿Qué sucede si un proyecto NO tiene licencia?
+A. Es automáticamente open source
+B. Nadie puede usarlo legalmente
+C. Solo el autor puede modificarlo
+D. B y C son correctas
+
+9️⃣ ¿Qué hace GitHub Actions?
+A. Aloja repositorios
+B. Automatiza flujos de trabajo
+C. Detecta vulnerabilidades manualmente
+D. Gestiona permisos
+
+🔟 ¿Qué evento puede activar un workflow?
+A. Crear un issue
+B. push o pull_request
+C. Cambiar el README
+D. Cerrar sesión
+
+1️⃣1️⃣ ¿Dónde se deben guardar claves y tokens?
+A. En el README
+B. En el código
+C. En GitHub Secrets
+D. En Issues privados
+
+1️⃣2️⃣ ¿Para qué sirve Dependabot?
+A. Ejecutar tests
+B. Detectar errores de sintaxis
+C. Actualizar dependencias automáticamente
+D. Revisar permisos
+
+1️⃣3️⃣ ¿Qué significa el principio de mínimo privilegio?
+A. Todos tienen acceso total
+B. Solo admins pueden trabajar
+C. Cada usuario tiene solo los permisos necesarios
+D. GitHub lo gestiona automáticamente
+
+1️⃣4️⃣ ¿Cuál es una licencia permisiva?
+A. GPL
+B. MIT
+C. Copyleft
+D. Restrictiva
+
+1️⃣5️⃣ ¿Cuál es el propósito de un code review?
+A. Rechazar cambios
+B. Aumentar la calidad y seguridad del código
+C. Automatizar merges
+D. Crear documentación
+
+1️⃣6️⃣ ¿Qué es un fork?
+A. Una copia local del repositorio
+B. Un backup automático
+C. Una copia del repositorio en otra cuenta
+D. Un merge especial
+
+1️⃣7️⃣ ¿Qué plan de GitHub está orientado a grandes organizaciones?
+A. Free
+B. Pro
+C. Team
+D. Enterprise
+
+1️⃣8️⃣ ¿Qué hace GitHub Copilot?
+A. Reemplaza al desarrollador
+B. Escribe código automáticamente sin revisión
+C. Sugiere código para mejorar productividad
+D. Ejecuta workflows
+
+1️⃣9️⃣ ¿Qué herramienta usarías para organizar tareas visualmente?
+A. Issues
+B. Projects
+C. Discussions
+D. Actions
+
+2️⃣0️⃣ ¿Cuál es la opción MÁS alineada con buenas prácticas?
+A. Subir secretos al repositorio privado
+B. Trabajar siempre en main
+C. Usar PRs y revisiones
+D. Evitar documentación
+
+
+✅ RESPUESTAS CORRECTAS + EXPLICACIÓN
+1️⃣ B – Git ≠ GitHub
+2️⃣ B – Un commit guarda un cambio
+3️⃣ B – Branch de feature
+4️⃣ C – Pull Request
+5️⃣ B – Flujo estándar
+6️⃣ C – Discussions = conversación
+7️⃣ C – Documentación básica
+8️⃣ D – Sin licencia no se puede usar
+9️⃣ B – Automatización
+🔟 B – Eventos comunes
+1️⃣1️⃣ C – Secrets
+1️⃣2️⃣ C – Dependabot
+1️⃣3️⃣ C – Seguridad
+1️⃣4️⃣ B – MIT
+1️⃣5️⃣ B – Calidad y seguridad
+1️⃣6️⃣ C – Copia en otra cuenta
+1️⃣7️⃣ D – Enterprise
+1️⃣8️⃣ C – Asistente, no reemplazo
+1️⃣9️⃣ B – Projects
+2️⃣0️⃣ C – PR + review
+
+🎯 RESULTADO
+    • 16–20 correctas → ✅ Listo para el examen
+    • 13–15 → ⚠️ Repasar seguridad y flujo
+    • <13 → ❌ Reforzar conceptos base
+
+🎯 1) PREGUNTAS TRAMPA MÁS COMUNES (MUY IMPORTANTES)
+Estas sí caen en el examen. Si las dominas, evitas errores tontos.
+🔸 Trampa 1: Git vs GitHub
+❌ “GitHub es un sistema de control de versiones”
+✅ Git es el sistema, GitHub es la plataforma.
+
+🔸 Trampa 2: Issue vs Discussion
+    • Issue → trabajo accionable (bug, tarea, feature)
+    • Discussion → conversación abierta, ideas, preguntas
+👉 Si la pregunta habla de opinar, debatir, preguntar → Discussion
+
+🔸 Trampa 3: Actions
+❌ Pensar que tienes que escribir pipelines
+✅ Solo saber:
+    • Automatiza
+    • CI/CD
+    • Se ejecuta por eventos (push, PR)
+
+🔸 Trampa 4: Seguridad
+Siempre elige la opción que:
+    • Usa Secrets
+    • Aplica mínimo privilegio
+    • Evita exponer datos
+
+🔸 Trampa 5: Fork vs Clone
+    • Clone → trabajar en TU copia local
+    • Fork → copiar repositorio a TU cuenta (open source)
+
+🔸 Trampa 6: Licencias
+❌ “Sin licencia es open source”
+✅ Sin licencia = nadie puede usarlo legalmente
+
+🧠 2) CHEAT SHEET DE ÚLTIMA HORA (1 PÁGINA)
+Git & GitHub
+    • Git → control de versiones
+    • GitHub → colaboración en la nube
+Flujo ideal
+Issue → Branch → Commit → Pull Request → Review → Merge
+Herramientas
+    • Issue → trabajo
+    • Discussion → conversación
+    • Project → organización visual
+    • PR → proponer cambios
+Actions
+    • Automatización
+    • CI/CD
+    • Eventos: push, pull_request
+Seguridad
+    • Secrets → claves
+    • Dependabot → dependencias
+    • Code Scanning → vulnerabilidades
+    • Mínimo privilegio
+Documentación
+    • README → qué es y cómo usar
+    • LICENSE → permisos legales
+    • CONTRIBUTING → cómo colaborar
+Licencias
+    • MIT / Apache → permisivas
+    • GPL → restrictiva
+Planes
+    • Enterprise → grandes organizaciones
+Copilot
+    • Sugiere código
+    • NO reemplaza humanos
+
+
+🧪 3) SIMULACRO COMPLETO – 40 PREGUNTAS
+(Te doy preguntas + respuestas al final para practicar de verdad)
+PREGUNTAS 21–40
+21️⃣ ¿Cuál es el beneficio principal de un Pull Request?
+A. Subir código
+B. Revisar y discutir cambios antes de integrarlos
+C. Crear ramas
+D. Automatizar tareas
+22️⃣ ¿Qué herramienta usarías para planificar trabajo tipo Kanban?
+A. Issues
+B. Actions
+C. Projects
+D. Discussions
+23️⃣ ¿Qué NO hace GitHub Actions?
+A. Ejecutar tests
+B. Automatizar CI/CD
+C. Escribir código por ti
+D. Desplegar aplicaciones
+24️⃣ ¿Qué archivo define normas de comportamiento?
+A. README
+B. LICENSE
+C. CONTRIBUTING
+D. CODE_OF_CONDUCT
+25️⃣ ¿Qué evento puede activar Actions?
+A. Login
+B. push
+C. Rename repo
+D. Logout
+26️⃣ ¿Para qué sirve Secret Scanning?
+A. Buscar bugs
+B. Detectar claves expuestas
+C. Actualizar dependencias
+D. Crear issues
+27️⃣ ¿Quién debería revisar un PR?
+A. Nadie
+B. Solo el autor
+C. Otro miembro del equipo
+D. GitHub automáticamente
+28️⃣ ¿Qué plan incluye control empresarial avanzado?
+A. Free
+B. Pro
+C. Team
+D. Enterprise
+29️⃣ ¿Qué es un runner?
+A. Un usuario
+B. Un repositorio
+C. El entorno donde corre un workflow
+D. Un commit
+30️⃣ ¿Qué archivo indica cómo contribuir?
+A. LICENSE
+B. README
+C. CONTRIBUTING.md
+D. CODE.md
+31️⃣ ¿Cuál es una buena práctica?
+A. Commits grandes
+B. Commits pequeños y claros
+C. Sin mensajes
+D. Solo un commit
+32️⃣ ¿Qué herramienta mejora la seguridad automáticamente?
+A. Projects
+B. Dependabot
+C. Discussions
+D. Fork
+33️⃣ ¿Cuándo usar fork?
+A. En equipos internos
+B. En open source
+C. Siempre
+D. Nunca
+34️⃣ ¿Qué define una branch?
+A. Copia del repo
+B. Línea paralela de trabajo
+C. Backup
+D. Issue
+35️⃣ ¿Qué es CI/CD?
+A. Lenguaje
+B. Framework
+C. Automatización de integración y despliegue
+D. Repositorio
+36️⃣ ¿Qué pasa al hacer merge?
+A. Se borra código
+B. Se combinan cambios
+C. Se crea un issue
+D. Se elimina la branch
+37️⃣ ¿Quién gestiona permisos?
+A. README
+B. GitHub
+C. Git
+D. Actions
+38️⃣ ¿Qué plan es ideal para individuos?
+A. Enterprise
+B. Team
+C. Pro
+D. Education
+39️⃣ ¿Qué hace Copilot correctamente?
+A. Decide arquitectura
+B. Sugiere código
+C. Aprueba PRs
+D. Ejecuta Actions
+40️⃣ ¿Qué opción refleja mejores prácticas?
+A. Sin reviews
+B. Sin documentación
+C. Seguridad y colaboración
+D. Código rápido sin pruebas
+
+✅ RESPUESTAS 21–40
+21️⃣ B
+22️⃣ C
+23️⃣ C
+24️⃣ D
+25️⃣ B
+26️⃣ B
+27️⃣ C
+28️⃣ D
+29️⃣ C
+30️⃣ C
+31️⃣ B
+32️⃣ B
+33️⃣ B
+34️⃣ B
+35️⃣ C
+36️⃣ B
+37️⃣ B
+38️⃣ C
+39️⃣ B
+40️⃣ C
+
+🧪 BANCO ADICIONAL DE PREGUNTAS – GitHub Foundations
+Preguntas 41–80 (40 nuevas)
+
+🔹 FUNDAMENTOS DE GIT Y GITHUB
+41️⃣ ¿Cuál es el principal beneficio de usar control de versiones?
+A. Reducir el tamaño del código
+B. Registrar y gestionar cambios en el tiempo
+C. Automatizar despliegues
+D. Proteger secretos
+✅ Respuesta correcta: B
+
+42️⃣ ¿Qué afirmación es correcta?
+A. Git necesita conexión a internet
+B. GitHub reemplaza a Git
+C. Git puede usarse sin GitHub
+D. GitHub es un lenguaje
+✅ Respuesta correcta: C
+
+43️⃣ ¿Qué elemento contiene el historial completo de cambios?
+A. Branch
+B. Commit
+C. Repositorio
+D. Issue
+✅ Respuesta correcta: C
+
+44️⃣ ¿Qué describe mejor un commit?
+A. Una copia del repositorio
+B. Una solicitud de cambio
+C. Un conjunto de cambios guardados
+D. Una automatización
+✅ Respuesta correcta: C
+
+🔹 BRANCHES Y FLUJO DE TRABAJO
+45️⃣ ¿Qué ventaja ofrece usar branches?
+A. Reduce conflictos automáticamente
+B. Permite trabajar sin afectar la versión principal
+C. Elimina la necesidad de PRs
+D. Acelera los despliegues
+✅ Respuesta correcta: B
+
+46️⃣ ¿Cuál es la rama principal por defecto actualmente?
+A. dev
+B. trunk
+C. master
+D. main
+✅ Respuesta correcta: D
+
+47️⃣ ¿Qué ocurre durante un merge?
+A. Se elimina una branch
+B. Se combinan cambios
+C. Se crea un issue
+D. Se hace un fork
+✅ Respuesta correcta: B
+
+48️⃣ ¿Cuál es el orden correcto del flujo colaborativo?
+A. PR → Commit → Issue
+B. Commit → Merge → Issue
+C. Issue → Branch → PR
+D. Fork → Issue → Commit
+✅ Respuesta correcta: C
+
+🔹 PULL REQUESTS Y REVISIÓN
+49️⃣ ¿Cuál es el objetivo principal de un Pull Request?
+A. Subir archivos
+B. Probar Actions
+C. Revisar cambios antes de integrarlos
+D. Crear documentación
+✅ Respuesta correcta: C
+
+50️⃣ ¿Qué práctica mejora la calidad del código?
+A. Commits grandes
+B. Code review
+C. Trabajar en main
+D. Evitar PRs
+✅ Respuesta correcta: B
+
+51️⃣ ¿Quién debería revisar un Pull Request?
+A. El autor únicamente
+B. Nadie
+C. Otro miembro del equipo
+D. GitHub automáticamente
+✅ Respuesta correcta: C
+
+52️⃣ ¿Qué es un Draft Pull Request?
+A. Un PR rechazado
+B. Un PR en revisión final
+C. Un PR aún no listo para merge
+D. Un PR automático
+✅ Respuesta correcta: C
+
+🔹 FORKS Y OPEN SOURCE
+53️⃣ ¿Cuándo es más común usar un fork?
+A. Proyectos privados
+B. Equipos internos
+C. Proyectos open source
+D. Repositorios locales
+✅ Respuesta correcta: C
+
+54️⃣ ¿Qué permite un fork?
+A. Trabajar sin permisos directos
+B. Automatizar CI/CD
+C. Proteger secretos
+D. Ejecutar workflows
+✅ Respuesta correcta: A
+
+55️⃣ ¿Qué acción crea una copia local?
+A. Fork
+B. Merge
+C. Clone
+D. Commit
+✅ Respuesta correcta: C
+
+🔹 ISSUES, PROJECTS Y DISCUSSIONS
+56️⃣ ¿Qué herramienta usarías para reportar un bug?
+A. Discussion
+B. Project
+C. Issue
+D. Action
+✅ Respuesta correcta: C
+
+57️⃣ ¿Qué diferencia clave hay entre Issue y Discussion?
+A. Issues son privadas
+B. Discussions son automáticas
+C. Issues representan trabajo accionable
+D. Discussions reemplazan PRs
+✅ Respuesta correcta: C
+
+58️⃣ ¿Para qué sirve GitHub Projects?
+A. Automatizar tareas
+B. Gestionar permisos
+C. Organizar trabajo visualmente
+D. Ejecutar código
+✅ Respuesta correcta: C
+
+59️⃣ ¿Qué elemento ayuda a priorizar issues?
+A. Secrets
+B. Labels
+C. Commits
+D. Forks
+✅ Respuesta correcta: B
+
+🔹 DOCUMENTACIÓN
+60️⃣ ¿Cuál es el propósito principal del README?
+A. Definir permisos
+B. Explicar el proyecto
+C. Ejecutar código
+D. Guardar secretos
+✅ Respuesta correcta: B
+
+61️⃣ ¿Qué archivo define normas de comportamiento?
+A. LICENSE
+B. CONTRIBUTING
+C. README
+D. CODE_OF_CONDUCT
+✅ Respuesta correcta: D
+
+62️⃣ ¿Qué archivo explica cómo colaborar?
+A. CONTRIBUTING.md
+B. LICENSE
+C. README
+D. SECURITY.md
+✅ Respuesta correcta: A
+
+🔹 GITHUB ACTIONS
+63️⃣ ¿Qué es GitHub Actions?
+A. Un lenguaje
+B. Un sistema de tickets
+C. Una plataforma de automatización
+D. Un repositorio
+✅ Respuesta correcta: C
+
+64️⃣ ¿Qué puede activar un workflow?
+A. Cerrar sesión
+B. push
+C. Cambiar plan
+D. Eliminar un repo
+✅ Respuesta correcta: B
+
+65️⃣ ¿Qué NO hace GitHub Actions?
+A. Ejecutar tests
+B. Automatizar despliegues
+C. Escribir código por el usuario
+D. Ejecutar scripts
+✅ Respuesta correcta: C
+
+66️⃣ ¿Qué concepto pertenece a Actions?
+A. Runner
+B. Label
+C. Issue
+D. Fork
+✅ Respuesta correcta: A
+
+🔹 SEGURIDAD
+67️⃣ ¿Dónde deben almacenarse claves sensibles?
+A. En el README
+B. En el código
+C. En GitHub Secrets
+D. En Issues
+✅ Respuesta correcta: C
+
+68️⃣ ¿Qué herramienta actualiza dependencias vulnerables?
+A. Code Scanning
+B. Dependabot
+C. Projects
+D. Actions
+✅ Respuesta correcta: B
+
+69️⃣ ¿Qué detecta Secret Scanning?
+A. Bugs de lógica
+B. Claves expuestas
+C. Issues duplicados
+D. Errores de sintaxis
+✅ Respuesta correcta: B
+
+70️⃣ ¿Qué implica el principio de mínimo privilegio?
+A. Acceso total para todos
+B. Solo admins trabajan
+C. Permisos necesarios y suficientes
+D. GitHub lo gestiona solo
+✅ Respuesta correcta: C
+
+🔹 LICENCIAS
+71️⃣ ¿Qué sucede si un repositorio no tiene licencia?
+A. Es open source
+B. Puede usarse libremente
+C. No puede usarse legalmente
+D. GitHub asigna una
+✅ Respuesta correcta: C
+
+72️⃣ ¿Cuál es una licencia permisiva?
+A. GPL
+B. MIT
+C. Copyleft
+D. Restrictiva
+✅ Respuesta correcta: B
+
+73️⃣ ¿Qué licencia obliga a mantener el código abierto?
+A. MIT
+B. Apache
+C. GPL
+D. BSD
+✅ Respuesta correcta: C
+
+🔹 GITHUB COMO PRODUCTO
+74️⃣ ¿Qué plan es ideal para grandes empresas?
+A. Free
+B. Pro
+C. Team
+D. Enterprise
+✅ Respuesta correcta: D
+
+75️⃣ ¿Qué hace GitHub Copilot?
+A. Reemplaza desarrolladores
+B. Sugiere código
+C. Aprueba PRs
+D. Ejecuta Actions
+✅ Respuesta correcta: B
+
+76️⃣ ¿Qué NO hace Copilot?
+A. Sugerir código
+B. Ayudar a programar
+C. Tomar decisiones finales
+D. Aumentar productividad
+✅ Respuesta correcta: C
+
+77️⃣ ¿Qué ofrece GitHub Marketplace?
+A. Lenguajes
+B. Herramientas e integraciones
+C. Repositorios
+D. Licencias
+✅ Respuesta correcta: B
+
+🔹 BUENAS PRÁCTICAS (MUY EXAMEN)
+78️⃣ ¿Qué práctica es más recomendable?
+A. Commits grandes
+B. Sin documentación
+C. PRs con revisión
+D. Trabajo directo en main
+✅ Respuesta correcta: C
+
+79️⃣ ¿Qué valor prioriza GitHub en el examen?
+A. Velocidad
+B. Colaboración y seguridad
+C. Código complejo
+D. Automatización avanzada
+✅ Respuesta correcta: B
+
+8️⃣0️⃣ ¿Cuál opción refleja mejores prácticas?
+A. Subir secretos a repos privados
+B. Evitar revisiones
+C. Documentar y revisar cambios
+D. Fusionar sin PR
+✅ Respuesta correcta: C
+
+📊 TOTAL ACUMULADO
+    • Preguntas anteriores: 40
+    • Preguntas nuevas: 40
+    • 🔢 TOTAL: 80 preguntas tipo examen
+👉 Con este volumen estáras por encima del entrenamiento necesario para GitHub Foundations.
+
+Habiendo llegado hasta acá, estás listo para pasar al simulador
+https://foundationscertificationtrainer.streamlit.app/
+
