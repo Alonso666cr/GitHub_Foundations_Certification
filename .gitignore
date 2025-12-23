@@ -1,3 +1,17 @@
+# 23-12-2025 - alonso666cr@hotmail.com
+
+# Base de datos SQLite (no subir)
+results.db
+
+# Streamlit
+.streamlit/
+
+# Cache
+__pycache__/
+*.pyc
+
+#-----------------------------------------
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
