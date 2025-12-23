@@ -12,10 +12,37 @@ from database import save_attempt, load_stats, init_db
 # CONFIGURACIÓN
 # --------------------------------------------------
 
+#st.set_page_config(
+#    page_title="GitHub Foundations Trainer",
+#    layout="centered"
+#)
+
 st.set_page_config(
-    page_title="GitHub Foundations Trainer",
-    layout="centered"
+    page_title="GitHub Foundations – Entrenamiento",
+    layout="wide"
 )
+
+# Header con título + link a GitHub
+col1, col2 = st.columns([8, 2])
+
+with col1:
+    st.markdown("## 🎓 GitHub Foundations – Entrenamiento")
+
+with col2:
+    st.markdown(
+        """
+        <div style="text-align: right; margin-top: 20px;">
+            <a href="https://github.com/Alonso666cr/GitHub_Foundations_Certification"
+               target="_blank"
+               style="text-decoration: none; font-size: 14px;">
+                🔗 Repositorio en GitHub
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.divider()
 
 init_db()
 
@@ -73,14 +100,13 @@ if st.sidebar.button("🔄 Reiniciar"):
 # UI PRINCIPAL
 # --------------------------------------------------
 
-st.title("🎓 GitHub Foundations – Entrenamiento")
+st.title("Entrenamiento interactivo para la certificación **GitHub Foundations**.\n\n")
 
 # ---------------- INICIO ---------------------------
 
 if not st.session_state.exam_started:
 
     st.write(
-        "Entrenamiento interactivo para la certificación **GitHub Foundations**.\n\n"
         "- Entrenamiento: feedback inmediato\n"
         "- Examen: sin feedback, cronometrado\n"
     )
